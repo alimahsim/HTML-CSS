@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500&family=Lexend+Deca&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Jost';
+}
+ul{
+	list-style: none;
+}
+li{
+	padding: 0;
+}
+a{
+	color:inherit;
+	text-decoration: none;
+}
+.promo{
+	width: 100vw;
+	height: 100vh;
+	padding-top: 64px;
+	width: 1111px;
+	margin: 0 auto;
+}
+.promo header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 70px;
+}
+.promo header menu{
+	display: flex;
+	column-gap:18px;
+}
+.header__right nav ul {
+	display: flex;
+	column-gap:42px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.main__screen main{
+	display: flex;
+	background-color: #E7816B;
+	border-radius: 15px;
+	background-image: url(/img/Oval-big.png);
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+.main__screen main .main__right{
+	width: 540px;
+	padding: 145px 0 145px 95px;
+}
+.main__screen main .main__right h1{
+	width: 540px;
+	height: 165px;
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 48px;
+	color:#fff;
+	padding-bottom: 11px;
+}
+.main__screen main .main__right p{
+	font-size: 16px;
+	line-height: 26px;
+	color:#fff;
+	padding-bottom: 40px;
+}
+.main__screen main .main__right .btn{
+	font-family: "Jost";
+	padding: 18px 25px;
+	font-weight: 500;
+	font-size: 15px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color:#333136;
+	background-color:#fff;
+	border-radius:8px;
+	border: none;
+}
+.main__screen main .main__left{
+	display: flex;
+	align-items: flex-end;
+
+}
+.main__screen main .main__left img{
+	padding-left: 105px;
+	
+}
+section .second-page{
+	background-image:url(/img/Rectangle.png);
+	background-position:-200px -300px;
+	background-repeat:no-repeat;
+	padding-top: 160px;
+	display: flex;
+	justify-content: space-between;
+}
+section .second-page .right-box{
+	background-image:url(/img/laptop.jpg);
+	width: 541px;
+	height: 640px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 15px;
+	mix-blend-mode: normal;
+	background-color:#000;
+}
+section .second-page .right-box .right-box-content{
+	display: grid;
+	place-items: center;
+	color:#fff;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+section .second-page .right-box .right-box-content .header{
+	font-size: 40px;
+	padding-bottom: 24px;
+}
+section .second-page .right-box .right-box-content a{
+	font-size: 15px;
+	letter-spacing: 5px;
+}
+
+section .second-page .left-boxes{
+	display:flex;
+	flex-direction: column;
+	row-gap:24px;
+}
+section .second-page .left-boxes .left-first-box{
+	width: 541px;
+	height: 308px;
+	background-image:url(/img/tel.jpg);
+	border-radius:15px;
+	display: grid;
+	place-items: center;
+}
+section .second-page .left-first-box-content{
+	display: grid;
+	place-items: center;
+	color:#fff;
+	text-transform: uppercase;
+	font-weight: 500;
+} 
+section .second-page .left-boxes .left-first-box-content .header{
+	font-size: 40px;
+	letter-spacing: 2px;
+	padding-bottom: 24px;
+}
+section .second-page .left-boxes .left-first-box-content a{
+	letter-spacing: 5px;
+}
+section .second-page .left-boxes .left-second-box{
+	width: 541px;
+	height: 308px;
+	background-image:url(/img/tel2.jpg);
+	border-radius:15px;
+	display: grid;
+	place-items: center;
+}
+section .second-page .left-boxes .left-second-box .left-second-box-content{
+	display: grid;
+	place-items: center;
+	color:#fff;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+section .second-page .left-boxes .left-second-box .left-second-box-content .header{
+	font-size: 48px;
+	letter-spacing: 2px;
+	padding-bottom: 24px;
+}
+section .second-page .left-boxes .left-second-box .left-second-box-content a{
+	letter-spacing: 5px;
+}
+
+

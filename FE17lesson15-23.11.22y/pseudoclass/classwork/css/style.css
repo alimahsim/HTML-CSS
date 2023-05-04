@@ -1,0 +1,55 @@
+body {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	background-color: #212121;
+	color: white;
+	row-gap: 25px;
+}
+
+ul {
+	font-size: 48px;
+}
+
+a {
+	color: yellow;
+	font-size: 60px;
+}
+
+a:hover {
+	color: red;
+}
+
+a:visited {
+	color: aqua;
+}
+
+a:active {
+	color: greenyellow;
+}
+
+div {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}
+div:active {
+	background-color: yellow;
+}
+input {
+	background-color: red;
+	border: 5px solid rgb(0, 208, 255);
+}
+
+input:focus {
+	background-color: rgb(60, 255, 0);
+	border-color: red;
+}
+
+div:focus {
+	background-color: blue;
+}
+a:link {
+	color: blue;
+}

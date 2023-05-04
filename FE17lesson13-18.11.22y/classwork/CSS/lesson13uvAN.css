@@ -1,0 +1,252 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    background-color: #1e1e1e;
+}
+.container{
+    position: relative;
+    margin: 50px 50px;
+    width: 1440px;
+    border-width: 10px 0px;
+    border-style: solid;
+    border-color: #1098AD;
+    background-color: #fff;
+}
+.navbar{
+    width: 1200px;
+    height: 74px;
+    margin: 0 120px;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    background-color:#f7f7f7;
+    color: #1098AD;
+}
+.header{
+    width: 450px;
+    display: flex;
+    justify-content:center;
+}
+.pages{
+    width: 400px;
+    display:flex;
+    justify-content: space-evenly;
+}
+.sidebar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+    margin-top: 60px;
+    margin-left: 75px;
+    padding: 0px;
+    width: 300px;
+    height: 459px;
+    border-width: 5px 0px;
+    border-color: #1098AD;
+    border-style: solid;
+    background-color: #f7f7f7;
+}
+.mainbar{
+    position: relative;
+    margin-top: 25px;
+    width: 825px;
+    padding-left: 120px;
+}
+.box{
+    display: flex   ;
+    padding-right: 0px;
+}
+
+h1{
+    font-style: italic;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 18px;
+    color: #1098AD;
+}
+h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    color: #1098AD;
+
+}
+.top{
+    position: absolute;
+    top:25px;
+    right:0;
+    width: 33px;
+    height: 16px;
+    padding: 5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #444;
+    background-color: yellow;
+}
+.laura {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.laura span{
+    font-size: 18px;
+    line-height: 21px;
+    margin-left: 10px;
+    color: #444;
+}
+.coding-photo{
+    width: 825px;
+    height: 330px;
+}
+p{
+    font-size: 22px;
+    line-height:150%;
+    color: #444444;
+}
+h3{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+    color: #1098AD;
+}
+ol{
+    font-size: 20px;
+    line-height: 30px;
+    color: #444444;
+}
+ol :first-child{
+    font-weight: 700;
+}
+ol :last-child{
+    font-style:italic;
+}
+.mainbar ul{
+    font-size: 21px;
+    font-weight: 18px;
+    line-height:40px;
+    color:#444;
+}
+.mainbar ul :first-child{
+    font-weight: bold;
+}
+/*.mainbar ul :last-child {
+    font-style: italic;
+}*/
+.div-ul ul{
+    line-height: 22px;
+    margin: 0;
+    list-style-type:none;
+}
+.div-ul li a{
+    font-family:Helvetica;
+    font-weight:bold;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 18px;  
+    color: #1098AD;
+}
+.div-ul li span{
+    line-height: 14px;
+    font-size: 14px;
+    font-style: italic;
+    color: #444;
+}   
+.div-li1 li{
+    display: flex;
+}   
+.div-li1-1{
+    margin-right: 15px;
+    width: 75px;
+    height: 75px;
+}
+.div-li1-2 a p{
+    margin: 0;
+    padding: 0;
+    align-items:center;
+    justify-content: center;
+    width: 125px;
+    height: 36px;
+    
+}
+.div-li2 li{
+    display: flex;
+}
+.div-li2-1{
+    margin-right: 15px;
+    width: 75px;
+    height: 75px;
+}
+.div-li2-2 a p{
+    margin-left: 0;
+    padding-left: 0;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    height: 36px;
+}
+.div-li3 li{
+    display: flex;
+}
+.div-li3-1{
+    margin-right: 15px;
+    width: 75px;
+    height: 75px;
+}
+.div-li3-2 p a{
+    margin: 0;
+    padding: 0;
+    width: 125px;
+    height: 36px;
+}
+.post{
+    font-style: italic;
+    font-size: 18px;
+    line-height: 21px;
+    color: #444444;
+}
+.related{
+    /*width: 167px;
+    height: 23px;*/
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #444444;
+}
+.authors{
+    font-size: 18px;
+    color: #444444;
+}
+button{
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #1098AD;
+    color: #fff;
+    font-size: 30px;
+   
+}
+.copyright{
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #444444;
+}

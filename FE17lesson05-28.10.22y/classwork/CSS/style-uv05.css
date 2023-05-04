@@ -1,0 +1,121 @@
+h1{
+    font-family: 'Helvetica';
+    font-style: italic;
+    font-weight: 700;
+    /* font-size: 26px;
+    line-height: 30px; */
+    /* identical to box height */
+    text-transform: uppercase;
+    color: #1098AD;
+
+}
+a{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    /* font-size: 16px;
+    line-height: 18px; */
+    display: flexbox; /* corrected*/
+    align-items: center;
+    color: #1098AD;
+
+}
+h2{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    /* identical to box height */
+    color: #1098AD;
+
+}
+p{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    /* identical to box height, or 150% */
+    color: #444444;
+
+        /* font-family: 'Helvetica';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+        line-height: 21px;
+    /* identical to box height */   
+    /* color: #444444; */ 
+
+}
+h3{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+    color: #1098AD;
+
+}
+ol{
+    font-family: 'Helvetica';
+    font-style: normal;
+    /*font-weight: 700;*/
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+    color: #444444;
+}
+ol :first-child{
+    font-weight: 700;
+}
+ul{
+    font-family: 'Helvetica';
+    font-style: normal;
+    /*font-weight: 700;*/
+    font-size: 20px;
+    line-height: 30px;  
+}
+ul :first-child{
+    font-weight: bold;
+}
+.post{
+    font-family: 'Helvetica';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #444444;
+}
+.related{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    text-align: center;
+    text-transform: uppercase;
+    color: #444444;
+}
+.authors{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 33px;
+    /* identical to box height, or 183% */
+    color: #444444;
+}
+.copyright{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #444444;
+}

@@ -1,0 +1,21 @@
+
+//
+.col{
+    background-color: #ff0000;
+    color: #fff;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+//
+.row {
+    margin-top: 20px;
+    }
+    .row > div {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: red;
+    border: 1px solid white;
+    text-align:center
+    }

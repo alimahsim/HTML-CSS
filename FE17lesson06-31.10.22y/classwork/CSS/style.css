@@ -1,0 +1,42 @@
+body{
+    color: red;
+    font-size: 48px;
+}
+
+.c-blue{
+    color:blue;
+}
+li{
+    color:green;
+}
+
+body ul li{
+    color:brown
+}
+
+ul li{
+    color:blueviolet;
+
+}
+
+body p {
+    color:tomato;
+}
+
+#some{
+    color:yellow;
+}
+h1+p{
+    color:#008811;
+}
+h1~ul{
+    color:#ff0000;
+}
+/* 
+1.Important
+2.Inline
+3.ID
+4.AtributeName
+5.Class
+6.TagName
+*/

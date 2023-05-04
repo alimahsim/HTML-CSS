@@ -1,0 +1,154 @@
+/* .container{
+    background-color: bisque;
+    box-sizing: border-box;
+}
+
+.box1{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    background-color: #888;
+    padding: 20px 30px 20px;
+    border: 5px solid #8af;
+    margin: 40px;
+    box-sizing:border-box;
+
+}
+
+.box2{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    background-color: #aff;
+    padding: 20px 30px 20px;
+    border: 5px solid #8af;
+    margin: 40px;
+    box-sizing:border-box
+}
+
+.box3{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    background-color: #ff5500;
+    padding: 20px 30px 20px;
+    border: 5px solid #8af;
+    margin: 40px;
+    box-sizing:border-box;
+    
+}
+.pos{
+    position:relative;
+    top: 20px;
+    left: 100px;
+} */
+
+/* Second exesize */
+
+.container{
+    box-sizing: border-box;
+    position: relative;
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    border-radius: 30px;
+}
+
+h1{
+    position: relative;
+    height: 43px;
+    left: 7.77%;
+    right: 43.93%;
+    top: calc(50% - 43px/2 - 76.5px);
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    color: #FFFFFF;
+
+}
+p{
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #969FAD;
+
+}
+.oval-star{
+    width: 48px;
+    height: 48px;
+    border-radius:50%;
+    position: relative;
+    left: 7.77%;
+    right: 80.58%;
+    top: 7.69%;
+    bottom: 80.77%;
+    background: #262E38;
+}
+
+
+.oval1{
+    width: 51px;
+    height: 51px;
+    border-radius:50%;
+    position: relative;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #262E38;
+}
+.oval2{
+    width: 51px;
+    height: 51px;
+    border-radius:50%;
+    position: relative;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #262E38;
+}
+.oval3{
+    width: 51px;
+    height: 51px;
+    border-radius:50%;
+    position:relative;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background:#fff;
+}
+.oval4{
+    width: 51px;
+    height: 51px;
+    border-radius:50%;
+    position: relative;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #262E38;
+    
+}
+.oval5{
+    width: 51px;
+    height: 51px;
+    border-radius:50%;
+    position: relative;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background:#fff;
+}
+.submit{
+    color: #fff;
+    background: #FC7614;
+    padding: 10px;
+    border-radius: 22.5px;
+    position: relative;
+    bottom: 20px;
+}

@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+h1 {
+  position: relative;
+}
+span:nth-child(1) {
+  color: black;
+  animation: span1 5s 0s ease infinite;
+  position: absolute;
+}
+span:nth-child(2) {
+  color: black;
+  animation: span2 8s 0s ease infinite;
+  position: absolute;
+}
+span:nth-child(3) {
+  color: black;
+  animation: span3 10s 0s ease infinite;
+  position: absolute;
+}
+@keyframes span1 {
+  0% {
+    top: 0;
+    left: 100px;
+  }
+  10% {
+    top: -5px;
+    left: 100px;
+  }
+  20% {
+    top: 0px;
+    left: 100px;
+  }
+}
+@keyframes span2 {
+  0% {
+    top: 0;
+    left: 110px;
+  }
+  10% {
+    top: -8px;
+    left: 110px;
+  }
+  20% {
+    top: 0px;
+    left: 110px;
+  }
+}
+@keyframes span3 {
+  0% {
+    top: 0;
+    left: 110px;
+  }
+  10% {
+    top: -8px;
+    left: 120px;
+  }
+  20% {
+    top: 0px;
+    left: 120px;
+  }
+}
+/* animation-name
+  animation-duration
+  animation-delay
+  animation-direction
+  animation-fill-mode: ; 
+  animation-timing-function: ; 
+  animation-delay: ; 
+  animation-iteration-count: infinite; 
+  animation: name duration timing-function delay iteration-count direction fill-mode; */

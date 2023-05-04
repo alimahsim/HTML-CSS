@@ -1,0 +1,77 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*body{
+	height: 50vh;
+	display: grid;
+	place-items:center;
+}
+*/
+.box{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background-color:tomato;
+	transition: all 1 ease-in;
+	/*animation-name: box;
+	animation-duration: 5s;
+	animation-delay: 0s;*/
+	animation: box 10s 0s ease infinite /* we can add the number2*/; 
+	animation-direction:reverse;
+
+}
+@keyframes box{
+	/*0%{
+		left:500px;
+		background-color: aqua;
+		transform: scale(3);
+		border-radius:50%;
+	}
+	100%{
+		transform:rotate(90deg);
+		background-color: yellow;
+	}
+	from{
+		width: 500px;
+		background-color: violet;
+	}
+	to{
+		width: 500px;
+		background-color: #1098ad;
+	}*/
+/*	0%{
+		background-color: aqua;
+		left: 0;
+		top:0;
+	}
+	10%{
+		background-color: chartreuse;
+		left:200px;
+		top:0;
+		border-radius: 50%;
+	}
+	20%{
+		background-color: violet;
+		left:200px;
+		top:200px;
+		transform: rotate(90deg);
+	}
+	30%{
+		background-color: yellow;
+		top:200px;
+		left:0;
+		transform: scale(-1);
+	}
+	40%{
+		background-color: #1098ad;
+		left:0;
+		top:0;
+		transform: skew(45deg);
+	}
+*/
+	
+
+
+}

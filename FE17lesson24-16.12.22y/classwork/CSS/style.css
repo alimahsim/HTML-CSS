@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Inter:wght@400;700&family=Jost:wght@400;500&family=Lexend+Deca&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Epilogue';
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+ul{
+    list-style:none;
+}
+.btn{
+    font-weight: 500;
+    font-size: 14px;
+    color: #686868;
+    border: 1.5px solid #686868;
+    border-radius: 14px;
+
+}  
+header .main-header{
+    display: flex;
+    justify-content: space-between;
+    padding:34px 40px 80px 40px;
+    background-color: chartreuse;
+}
+header .main-header .header-right{
+    display: flex;
+    column-gap: 62px;
+}
+header .main-header .header-right a svg{
+    display: flex;
+    align-items: center;
+}
+
+header .main-header .header-right nav ul{
+    display: flex;
+    column-gap: 40px;
+}
+header .main-header .header-right nav ul li a{
+    display: flex;
+    align-items:center;
+    column-gap:9px;
+}
+header .main-header .header-left{
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+header .main-header .header-left p{
+    font-weight: 500;
+    font-size: 14px;
+    color: #686868;
+}
+header .main-header .header-left .btn{
+    width: 104px;
+    height: 42px;
+}
+main {
+    display: flex;
+    column-gap: 125px;
+    padding: 0 130px 130px 165px;
+    background-color:lightblue;
+
+}
+main .main-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width:540px;
+    height:640px;
+}
+main .main-right h1{
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 80px;
+    letter-spacing: -1.11111px;
+    color: #151515;
+    background-color:red;
+}
+main .main-left{
+    width:480px;
+    height:640px;
+}
+main .main-right .btn{
+    width:163px;
+    height:56px;
+    background-color:yellow;
+
+}

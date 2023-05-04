@@ -1,0 +1,48 @@
+.big-box{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: coral;
+}
+
+.box-1{
+    position: absolute;
+    /*left:calc(50% - 50px);
+    top:calc (50% - 50px);*/
+    left:150px;
+    top:150px;
+    width: 100px;
+    height: 100px;
+    background-color:black;
+}
+.box-2{
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+.box-3{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+}
+.box-4{
+    position: absolute;
+    bottom: 0;
+    width: 100px;
+    height: 100px;
+    background-color: darkorange ;
+} 
+.box-5{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+}

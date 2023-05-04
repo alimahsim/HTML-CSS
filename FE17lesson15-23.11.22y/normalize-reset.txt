@@ -1,0 +1,27 @@
+
+CSS Reset/Normalize CSS nima uchun kerak?
+
+Har bir brauzer HTML elementlari uchun standart CSS xususiyatlarni belgilaydigan User-Agent-Stylesheet deb nomlangan style faylini yuklaydi.
+
+Muammo shundaki, brauzerlar  CSS xususiyatlari uchun turli xil standart belgilashi mumkin. Ushbu muammoni hal qilish uchun CSS Reset va Normalize CSS nomli yondashuvlar o’ylab topilgan.
+
+CSS Reset vs. Normalize CSS
+
+• Normalize CSS — Yumshoq yondashuv
+• CSS Reset — Agressiv yondashuv
+
+Ushbu ikki yondashuv haqida qisqacha ma’lumot 👇🏻:
+
+Normalize CSS
+
+Normalize CSS ning asosiy maqsadi brauzerlar orasidagi farqlarni bartaraf etish va ular uchun bir xil asosiy style-larni yaratish.
+
+Qisqacha qilib aytganda, ma’lum bir tegning CSS xususiyatlariga brauzer tomonidan har xil qiymatlar berilgan bo’lsa, Normalize CSS ularga umumiy bir xil qiymat beradi.
+
+CSS Reset
+
+Normalize CSS-dan CSS Reset-ning farqi — u ko'pchilik brauzerlarning standart CSS xususiyatlari bizning loyihalarimizga mos kelmaydi deb taxmin qiladi shuning uchun ularning aksariyatini olib tashlaydi.
+
+P.S. CSS Reset/Normalize CSS kutubxona yoki framework emas! 
+
+Quyidagi rasmda qisqa misol keltirilgan 👇🏻
