@@ -1,0 +1,32 @@
+h1{
+    color: #fff;
+    background-color: #ff0000;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0;
+    border-radius:10px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 150px auto auto;
+    background-color: chartreuse;
+    padding: 20px;
+    border-radius: 10px;
+}
+.grid-item{
+    text-align: center;
+    font-weight: 900;
+    border-radius:10px;
+    padding: 20px;
+    margin: 10px;
+    background-color: crimson;
+}
+.first-item{
+    grid-column: 1/ 4;
+    background-color: cornflowerblue;
+}
+.last-item{
+    // grid-row: 1/ span 3;
+    background-color:gold;
+}

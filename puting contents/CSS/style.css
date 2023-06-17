@@ -1,0 +1,120 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 1400px;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+li{
+    list-style: none;
+}
+a{
+    color:#fff;
+    text-decoration: none;
+}
+a:active{
+    box-shadow: 0 0 10px 10px yellow;
+    color:#000;
+    background-color: yellow;
+    text-decoration: none;
+}
+.subtitle{
+    color:#fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.subtitle:hover{
+    position: relative;
+    transition: all 0.5 linear;
+    animation-duration: 5s;
+    animation-name:subtitle;
+}  
+@keyframes subtitle{
+    50%{
+        left:0px;
+    }
+    100%{
+        font-size: 20px;
+        font-weight: 500;
+        color: rgb(55, 45, 202);
+    }
+}
+.btn{
+    width: 100px;
+    color:#fff;
+    background-color: #000;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 5px 5px;
+}
+.btn:hover{
+    width: 100px;
+    color:#000;
+    background-color: #fff;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 10px 5px;
+    transition: all;
+    transition-duration: 5s;
+    transform: rotate(360deg);
+}
+.navbar header nav .nav-head{
+    color:#fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.nav-head:active{
+    position: relative;
+    transition: all 0.5 ease;
+    animation-duration:5s;
+    animation-name:nav-head;
+}
+@keyframes nav-head{
+    0%{
+        left: 200px;
+    }
+    50%{
+        color: yellow;
+        font-size: 30px;
+    }
+   
+}
+.navbar header nav .nav-menu{
+    color:#fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.navbar header nav{
+    width: 1400px;
+    padding: 50px 50px;
+    background-color: tomato;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+.navbar header nav ul{
+    width: 350px;
+    background-color: tomato;
+    display: flex;
+    column-gap: 10px;
+}
+.mainbar main .cards .card{
+    width: 300px;
+    height: 320px;
+    padding: 15px 15px;
+    background-color: rgb(187, 201, 172);
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.mainbar main .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 65px;
+    padding-top: 185px;
+}
